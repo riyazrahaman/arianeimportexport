@@ -10,7 +10,8 @@ export default function Placeholder({ title }: PlaceholderProps) {
           {title}
         </h1>
         <p className="text-muted-foreground mb-8">
-          This page is coming soon. Continue exploring or check back later for more information about our shipping and logistics services.
+          This page is coming soon. Continue exploring or check back later for
+          more information about our shipping and logistics services.
         </p>
         <a
           href="/"

@@ -12,7 +12,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
-                <span className="font-bold text-lg text-secondary-foreground">W</span>
+                <span className="font-bold text-lg text-secondary-foreground">
+                  W
+                </span>
               </div>
               <span className="font-heading text-xl font-bold">WShipping</span>
             </div>
@@ -26,22 +28,34 @@ export default function Footer() {
             <h3 className="font-heading font-bold text-lg mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/services"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Ocean Freight
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/services"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Air Freight
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/services"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Ground Transport
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/services"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Warehousing
                 </Link>
               </li>
@@ -53,22 +67,34 @@ export default function Footer() {
             <h3 className="font-heading font-bold text-lg mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/about"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/tracking" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/tracking"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Track Shipment
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/contact"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Contact
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Blog
                 </a>
               </li>
@@ -80,21 +106,37 @@ export default function Footer() {
             <h3 className="font-heading font-bold text-lg mb-4">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
-                <Phone size={18} className="text-secondary mt-0.5 flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-gray-300 hover:text-white transition-colors">
+                <Phone
+                  size={18}
+                  className="text-secondary mt-0.5 flex-shrink-0"
+                />
+                <a
+                  href="tel:+1234567890"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   +1 (234) 567-890
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <Mail size={18} className="text-secondary mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@wshipping.com" className="text-gray-300 hover:text-white transition-colors">
+                <Mail
+                  size={18}
+                  className="text-secondary mt-0.5 flex-shrink-0"
+                />
+                <a
+                  href="mailto:info@wshipping.com"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   info@wshipping.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin size={18} className="text-secondary mt-0.5 flex-shrink-0" />
+                <MapPin
+                  size={18}
+                  className="text-secondary mt-0.5 flex-shrink-0"
+                />
                 <span className="text-gray-300">
-                  123 Shipping Way<br />
+                  123 Shipping Way
+                  <br />
                   Port City, PC 12345
                 </span>
               </li>
@@ -106,13 +148,22 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8">
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-8">
-            <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
+            <a
+              href="#"
+              className="text-gray-300 hover:text-secondary transition-colors"
+            >
               <Facebook size={20} />
             </a>
-            <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
+            <a
+              href="#"
+              className="text-gray-300 hover:text-secondary transition-colors"
+            >
               <Twitter size={20} />
             </a>
-            <a href="#" className="text-gray-300 hover:text-secondary transition-colors">
+            <a
+              href="#"
+              className="text-gray-300 hover:text-secondary transition-colors"
+            >
               <Linkedin size={20} />
             </a>
           </div>

@@ -1,4 +1,15 @@
-import { ArrowRight, TrendingUp, Zap, Shield, MapPin, Clock, DollarSign, CheckCircle, Users, Award } from "lucide-react";
+import {
+  ArrowRight,
+  TrendingUp,
+  Zap,
+  Shield,
+  MapPin,
+  Clock,
+  DollarSign,
+  CheckCircle,
+  Users,
+  Award,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Index() {
@@ -6,32 +17,37 @@ export default function Index() {
     {
       icon: <MapPin className="w-8 h-8" />,
       title: "Ocean Freight",
-      description: "Full container load and less than container load services with real-time tracking"
+      description:
+        "Full container load and less than container load services with real-time tracking",
     },
     {
       icon: <Zap className="w-8 h-8" />,
       title: "Air Freight",
-      description: "Fast and reliable air cargo services for time-sensitive shipments worldwide"
+      description:
+        "Fast and reliable air cargo services for time-sensitive shipments worldwide",
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
       title: "Ground Transport",
-      description: "Comprehensive domestic and cross-border trucking solutions"
+      description: "Comprehensive domestic and cross-border trucking solutions",
     },
     {
       icon: <Shield className="w-8 h-8" />,
       title: "Warehousing",
-      description: "Secure storage and inventory management at strategic locations"
+      description:
+        "Secure storage and inventory management at strategic locations",
     },
     {
       icon: <Clock className="w-8 h-8" />,
       title: "Express Delivery",
-      description: "Same-day and next-day delivery options for urgent shipments"
+      description:
+        "Same-day and next-day delivery options for urgent shipments",
     },
     {
       icon: <DollarSign className="w-8 h-8" />,
       title: "Customs Clearance",
-      description: "Expert documentation and clearance services for international shipments"
+      description:
+        "Expert documentation and clearance services for international shipments",
     },
   ];
 
@@ -39,22 +55,26 @@ export default function Index() {
     {
       number: "01",
       title: "Real-Time Tracking",
-      description: "Track your shipments 24/7 with our advanced GPS and IoT technology for complete visibility"
+      description:
+        "Track your shipments 24/7 with our advanced GPS and IoT technology for complete visibility",
     },
     {
       number: "02",
       title: "Global Network",
-      description: "Access to 150+ countries with our extensive partner network and logistics hubs"
+      description:
+        "Access to 150+ countries with our extensive partner network and logistics hubs",
     },
     {
       number: "03",
       title: "Expert Team",
-      description: "Highly trained professionals with 20+ years of industry experience at your service"
+      description:
+        "Highly trained professionals with 20+ years of industry experience at your service",
     },
     {
       number: "04",
       title: "Competitive Rates",
-      description: "Best-in-class pricing with transparent quotes and no hidden fees"
+      description:
+        "Best-in-class pricing with transparent quotes and no hidden fees",
     },
   ];
 
@@ -75,13 +95,17 @@ export default function Index() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <div className="inline-block px-4 py-2 bg-secondary/20 rounded-full">
-                  <span className="text-sm font-semibold text-secondary">Trusted by Global Brands</span>
+                  <span className="text-sm font-semibold text-secondary">
+                    Trusted by Global Brands
+                  </span>
                 </div>
                 <h1 className="text-5xl md:text-6xl font-heading font-bold text-foreground leading-tight">
-                  Ship Your World with <span className="text-primary">Confidence</span>
+                  Ship Your World with{" "}
+                  <span className="text-primary">Confidence</span>
                 </h1>
                 <p className="text-lg text-muted-foreground max-w-lg">
-                  Industry-leading shipping and logistics solutions with real-time tracking, competitive pricing, and 24/7 support.
+                  Industry-leading shipping and logistics solutions with
+                  real-time tracking, competitive pricing, and 24/7 support.
                 </p>
               </div>
 
@@ -108,8 +132,12 @@ export default function Index() {
                   ))}
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Trusted by 5,000+ businesses</p>
-                  <p className="text-sm text-muted-foreground">⭐⭐⭐⭐⭐ 4.9/5 rating</p>
+                  <p className="font-semibold text-foreground">
+                    Trusted by 5,000+ businesses
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    ⭐⭐⭐⭐⭐ 4.9/5 rating
+                  </p>
                 </div>
               </div>
             </div>
@@ -140,7 +168,9 @@ export default function Index() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, i) => (
               <div key={i} className="text-center">
-                <div className="text-4xl font-heading font-bold text-primary mb-2">{stat.number}</div>
+                <div className="text-4xl font-heading font-bold text-primary mb-2">
+                  {stat.number}
+                </div>
                 <div className="text-muted-foreground">{stat.label}</div>
               </div>
             ))}
@@ -156,22 +186,24 @@ export default function Index() {
               Our Services
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive logistics solutions designed to meet your shipping needs with efficiency and reliability
+              Comprehensive logistics solutions designed to meet your shipping
+              needs with efficiency and reliability
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, i) => (
-              <div key={i} className="bg-white rounded-2xl p-8 border border-border hover:border-primary hover:shadow-lg transition-all duration-300 group cursor-pointer">
+              <div
+                key={i}
+                className="bg-white rounded-2xl p-8 border border-border hover:border-primary hover:shadow-lg transition-all duration-300 group cursor-pointer"
+              >
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
                   {service.icon}
                 </div>
                 <h3 className="text-xl font-heading font-bold text-foreground mb-3">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground">
-                  {service.description}
-                </p>
+                <p className="text-muted-foreground">{service.description}</p>
                 <div className="mt-4 flex items-center text-primary opacity-0 group-hover:opacity-100 transition-opacity">
                   <span className="text-sm font-semibold">Learn more</span>
                   <ArrowRight className="w-4 h-4 ml-2" />
@@ -206,9 +238,7 @@ export default function Index() {
                   <h3 className="text-xl font-heading font-bold text-foreground mb-3">
                     {feature.title}
                   </h3>
-                  <p className="text-muted-foreground">
-                    {feature.description}
-                  </p>
+                  <p className="text-muted-foreground">{feature.description}</p>
                 </div>
               </div>
             ))}
@@ -223,7 +253,8 @@ export default function Index() {
             Ready to Ship with Confidence?
           </h2>
           <p className="text-lg text-white/90">
-            Get competitive rates and start your first shipment today. Join thousands of satisfied customers worldwide.
+            Get competitive rates and start your first shipment today. Join
+            thousands of satisfied customers worldwide.
           </p>
           <button className="px-10 py-4 bg-white text-primary font-semibold rounded-lg hover:bg-gray-50 transition-colors inline-flex items-center gap-2 group">
             Get Started Now
@@ -238,29 +269,53 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 text-center border border-border">
               <Users className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-heading font-bold text-foreground mb-3">Expert Support</h3>
+              <h3 className="text-xl font-heading font-bold text-foreground mb-3">
+                Expert Support
+              </h3>
               <p className="text-muted-foreground mb-6">
-                Dedicated account managers available 24/7 to assist with your shipping needs
+                Dedicated account managers available 24/7 to assist with your
+                shipping needs
               </p>
-              <a href="#" className="text-primary font-semibold hover:underline">Contact Support →</a>
+              <a
+                href="#"
+                className="text-primary font-semibold hover:underline"
+              >
+                Contact Support →
+              </a>
             </div>
 
             <div className="bg-white rounded-2xl p-8 text-center border border-border">
               <Award className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-heading font-bold text-foreground mb-3">Industry Leading</h3>
+              <h3 className="text-xl font-heading font-bold text-foreground mb-3">
+                Industry Leading
+              </h3>
               <p className="text-muted-foreground mb-6">
-                Award-winning logistics provider recognized for innovation and reliability
+                Award-winning logistics provider recognized for innovation and
+                reliability
               </p>
-              <a href="#" className="text-primary font-semibold hover:underline">Our Awards →</a>
+              <a
+                href="#"
+                className="text-primary font-semibold hover:underline"
+              >
+                Our Awards →
+              </a>
             </div>
 
             <div className="bg-white rounded-2xl p-8 text-center border border-border">
               <CheckCircle className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-heading font-bold text-foreground mb-3">Secure & Insured</h3>
+              <h3 className="text-xl font-heading font-bold text-foreground mb-3">
+                Secure & Insured
+              </h3>
               <p className="text-muted-foreground mb-6">
-                Full insurance coverage and advanced security measures for complete peace of mind
+                Full insurance coverage and advanced security measures for
+                complete peace of mind
               </p>
-              <a href="#" className="text-primary font-semibold hover:underline">Learn More →</a>
+              <a
+                href="#"
+                className="text-primary font-semibold hover:underline"
+              >
+                Learn More →
+              </a>
             </div>
           </div>
         </div>
