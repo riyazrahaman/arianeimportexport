@@ -44,13 +44,13 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-1">
             {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                to={link.href}
+              <button
+                key={link.id}
+                onClick={() => handleScrollToSection(link.id)}
                 className="px-3 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
               >
                 {link.label}
-              </Link>
+              </button>
             ))}
           </nav>
 
