@@ -267,7 +267,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
-              Why Choose WShipping
+              Why Choose AIANE WORLD IMPEX
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Advanced technology meets unmatched customer service
