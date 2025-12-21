@@ -11,8 +11,29 @@ import {
   Award,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 export default function Index() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const carouselImages = [
+    "https://images.unsplash.com/photo-1578575494546-b1fc3546afba?w=500&h=500&fit=crop",
+    "https://images.unsplash.com/photo-1559505780-a127184d86b9?w=500&h=500&fit=crop",
+    "https://images.unsplash.com/photo-1559454403-ee2da8b10dbb?w=500&h=500&fit=crop"
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % carouselImages.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const handleWhatsAppClick = (message: string) => {
+    const phoneNumber = "917670959512";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
   const services = [
     {
       icon: <MapPin className="w-8 h-8" />,
