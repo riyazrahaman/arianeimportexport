@@ -19,9 +19,9 @@ export default function Index() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const carouselImages = [
-    "https://images.unsplash.com/photo-1578575494546-b1fc3546afba?w=500&h=500&fit=crop",
-    "https://images.unsplash.com/photo-1559505780-a127184d86b9?w=500&h=500&fit=crop",
-    "https://images.unsplash.com/photo-1559454403-ee2da8b10dbb?w=500&h=500&fit=crop"
+    "https://images.unsplash.com/photo-1606400973062-b6d74a67a6f4?w=500&h=500&fit=crop",
+    "https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=500&h=500&fit=crop",
+    "https://images.unsplash.com/photo-1494694694253-10146eaebc67?w=500&h=500&fit=crop"
   ];
 
   useEffect(() => {
