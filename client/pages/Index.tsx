@@ -9,6 +9,8 @@ import {
   CheckCircle,
   Users,
   Award,
+  Phone,
+  Mail,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
