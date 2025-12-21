@@ -169,19 +169,40 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Right Visual */}
-            <div className="relative h-96 md:h-full">
+            {/* Right Visual - Rotating Carousel */}
+            <div className="relative h-96 md:h-96">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary opacity-10 rounded-3xl blur-3xl"></div>
-              <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-border p-8 h-full flex flex-col justify-between">
-                <div className="space-y-4">
-                  <div className="h-4 bg-muted rounded-full w-3/4"></div>
-                  <div className="h-4 bg-muted rounded-full w-1/2"></div>
-                  <div className="h-32 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-xl mt-8"></div>
-                </div>
-                <div className="flex gap-2">
-                  <div className="flex-1 h-3 bg-primary rounded-full"></div>
-                  <div className="flex-1 h-3 bg-secondary rounded-full"></div>
-                  <div className="flex-1 h-3 bg-muted rounded-full"></div>
+              <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-border h-full">
+                <div className="relative w-full h-full">
+                  {carouselImages.map((img, idx) => (
+                    <div
+                      key={idx}
+                      className={`absolute inset-0 transition-opacity duration-1000 ${
+                        idx === currentImageIndex ? "opacity-100" : "opacity-0"
+                      }`}
+                    >
+                      <img
+                        src={img}
+                        alt={`Cargo ${idx + 1}`}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  ))}
+                  {/* Carousel Indicators */}
+                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+                    {carouselImages.map((_, idx) => (
+                      <button
+                        key={idx}
+                        onClick={() => setCurrentImageIndex(idx)}
+                        className={`w-2 h-2 rounded-full transition-all ${
+                          idx === currentImageIndex
+                            ? "bg-white w-6"
+                            : "bg-white/50"
+                        }`}
+                        aria-label={`Go to image ${idx + 1}`}
+                      />
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
