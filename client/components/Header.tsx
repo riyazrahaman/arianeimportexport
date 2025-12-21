@@ -34,10 +34,10 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 flex-shrink-0">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">W</span>
+              <span className="text-white font-bold text-lg">A</span>
             </div>
-            <span className="font-heading text-xl font-bold text-foreground hidden sm:block">
-              WShipping
+            <span className="font-heading text-lg font-bold text-foreground hidden sm:block">
+              AIANE
             </span>
           </Link>
 
