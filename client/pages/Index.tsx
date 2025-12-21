@@ -327,12 +327,12 @@ export default function Index() {
                 Dedicated account managers available 24/7 to assist with your
                 shipping needs
               </p>
-              <a
-                href="#"
+              <button
+                onClick={() => handleWhatsAppClick("Hi! I need expert support for my shipping needs.")}
                 className="text-primary font-semibold hover:underline"
               >
                 Contact Support →
-              </a>
+              </button>
             </div>
 
             <div className="bg-white rounded-2xl p-8 text-center border border-border">
@@ -367,6 +367,126 @@ export default function Index() {
               >
                 Learn More →
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
+                About AIANE WORLD IMPEX
+              </h2>
+              <p className="text-lg text-muted-foreground mb-4">
+                With over 15 years of experience in international logistics and shipping, AIANE WORLD IMPEX has established itself as a trusted partner for businesses worldwide. We specialize in providing comprehensive shipping solutions tailored to meet the unique needs of each client.
+              </p>
+              <p className="text-lg text-muted-foreground mb-6">
+                Our commitment to excellence, innovation, and customer satisfaction has made us a leader in the logistics industry. We invest in cutting-edge technology and maintain a network of strategic partnerships across 150+ countries.
+              </p>
+              <button
+                onClick={() => handleWhatsAppClick("Hi! I'd like to know more about AIANE WORLD IMPEX.")}
+                className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors inline-flex items-center gap-2 group"
+              >
+                Learn More
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </div>
+            <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-8 h-96 flex items-center justify-center">
+              <div className="text-center">
+                <div className="text-6xl font-heading font-bold text-primary mb-4">15+</div>
+                <p className="text-xl font-semibold text-foreground">Years of Excellence</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tracking Section */}
+      <section id="tracking" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16 space-y-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
+              Track Your Shipment
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Monitor your cargo in real-time with our advanced tracking system. Get instant updates on location, status, and estimated delivery times.
+            </p>
+          </div>
+
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-border">
+              <input
+                type="text"
+                placeholder="Enter your tracking number"
+                className="w-full px-4 py-3 border border-border rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-primary"
+              />
+              <button
+                onClick={() => handleWhatsAppClick("Hi! I need help tracking my shipment.")}
+                className="w-full px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+              >
+                Track Now
+              </button>
+            </div>
+            <p className="text-center text-muted-foreground mt-6">
+              Don't have a tracking number? Contact our support team for assistance.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16 space-y-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
+              Get In Touch
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Have questions? We'd love to hear from you. Contact us today for any inquiries about our services.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="bg-muted/30 rounded-2xl p-8 text-center">
+              <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
+              <h3 className="text-xl font-heading font-bold text-foreground mb-2">
+                Phone
+              </h3>
+              <a
+                href="tel:+917670959512"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                +91 7670959512
+              </a>
+            </div>
+
+            <div className="bg-muted/30 rounded-2xl p-8 text-center">
+              <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
+              <h3 className="text-xl font-heading font-bold text-foreground mb-2">
+                Email
+              </h3>
+              <a
+                href="mailto:info@ariane-impex.com"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                info@ariane-impex.com
+              </a>
+            </div>
+
+            <div className="bg-muted/30 rounded-2xl p-8 text-center">
+              <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
+              <h3 className="text-xl font-heading font-bold text-foreground mb-2">
+                WhatsApp
+              </h3>
+              <button
+                onClick={() => handleWhatsAppClick("Hi! I'd like to get in touch with AIANE WORLD IMPEX.")}
+                className="text-primary hover:underline font-semibold transition-colors"
+              >
+                Chat with Us
+              </button>
             </div>
           </div>
         </div>
