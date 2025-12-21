@@ -304,7 +304,10 @@ export default function Index() {
             Get competitive rates and start your first shipment today. Join
             thousands of satisfied customers worldwide.
           </p>
-          <button className="px-10 py-4 bg-white text-primary font-semibold rounded-lg hover:bg-gray-50 transition-colors inline-flex items-center gap-2 group">
+          <button
+            onClick={() => handleWhatsAppClick("Hi! I'm ready to get started with AIANE WORLD IMPEX for my shipping needs.")}
+            className="px-10 py-4 bg-white text-primary font-semibold rounded-lg hover:bg-gray-50 transition-colors inline-flex items-center gap-2 group"
+          >
             Get Started Now
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
