@@ -13,10 +13,10 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
                 <span className="font-bold text-lg text-secondary-foreground">
-                  W
+                  A
                 </span>
               </div>
-              <span className="font-heading text-xl font-bold">WShipping</span>
+              <span className="font-heading text-xl font-bold">AIANE WORLD IMPEX</span>
             </div>
             <p className="text-gray-300 text-sm">
               Global shipping and logistics solutions for your business needs.
