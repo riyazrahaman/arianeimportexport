@@ -9,7 +9,7 @@ export default function Header() {
   const handleScrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
       setIsOpen(false);
     }
   };
@@ -57,7 +57,11 @@ export default function Header() {
           <div className="flex items-center gap-4">
             {/* CTA Button - Desktop */}
             <button
-              onClick={() => handleWhatsAppClick("Hi! I would like to get a quote for my shipping needs.")}
+              onClick={() =>
+                handleWhatsAppClick(
+                  "Hi! I would like to get a quote for my shipping needs.",
+                )
+              }
               className="hidden sm:inline-flex px-6 py-2 bg-secondary text-secondary-foreground font-medium rounded-lg hover:bg-secondary/90 transition-colors"
             >
               Get Quote
@@ -88,7 +92,11 @@ export default function Header() {
                 </button>
               ))}
               <button
-                onClick={() => handleWhatsAppClick("Hi! I would like to get a quote for my shipping needs.")}
+                onClick={() =>
+                  handleWhatsAppClick(
+                    "Hi! I would like to get a quote for my shipping needs.",
+                  )
+                }
                 className="w-full mt-4 px-4 py-2 bg-secondary text-secondary-foreground font-medium rounded-lg hover:bg-secondary/90 transition-colors"
               >
                 Get Quote

@@ -16,7 +16,9 @@ export default function Footer() {
                   A
                 </span>
               </div>
-              <span className="font-heading text-xl font-bold">AIANE WORLD IMPEX</span>
+              <span className="font-heading text-xl font-bold">
+                AIANE WORLD IMPEX
+              </span>
             </div>
             <p className="text-gray-300 text-sm">
               Global shipping and logistics solutions for your business needs.

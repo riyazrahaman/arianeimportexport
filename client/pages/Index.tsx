@@ -21,7 +21,7 @@ export default function Index() {
   const carouselImages = [
     "https://images.unsplash.com/photo-1606400973062-b6d74a67a6f4?w=500&h=500&fit=crop",
     "https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=500&h=500&fit=crop",
-    "https://images.unsplash.com/photo-1494694694253-10146eaebc67?w=500&h=500&fit=crop"
+    "https://images.unsplash.com/photo-1494694694253-10146eaebc67?w=500&h=500&fit=crop",
   ];
 
   useEffect(() => {
@@ -134,14 +134,22 @@ export default function Index() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
-                  onClick={() => handleWhatsAppClick("Hi! I would like to get a quote for my shipping needs.")}
+                  onClick={() =>
+                    handleWhatsAppClick(
+                      "Hi! I would like to get a quote for my shipping needs.",
+                    )
+                  }
                   className="px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 group"
                 >
                   Get a Free Quote
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
                 <button
-                  onClick={() => handleWhatsAppClick("Hi! I would like to watch a demo of your shipping platform.")}
+                  onClick={() =>
+                    handleWhatsAppClick(
+                      "Hi! I would like to watch a demo of your shipping platform.",
+                    )
+                  }
                   className="px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/5 transition-colors"
                 >
                   Watch Demo
@@ -307,7 +315,11 @@ export default function Index() {
             thousands of satisfied customers worldwide.
           </p>
           <button
-            onClick={() => handleWhatsAppClick("Hi! I'm ready to get started with AIANE WORLD IMPEX for my shipping needs.")}
+            onClick={() =>
+              handleWhatsAppClick(
+                "Hi! I'm ready to get started with AIANE WORLD IMPEX for my shipping needs.",
+              )
+            }
             className="px-10 py-4 bg-white text-primary font-semibold rounded-lg hover:bg-gray-50 transition-colors inline-flex items-center gap-2 group"
           >
             Get Started Now
@@ -330,7 +342,11 @@ export default function Index() {
                 shipping needs
               </p>
               <button
-                onClick={() => handleWhatsAppClick("Hi! I need expert support for my shipping needs.")}
+                onClick={() =>
+                  handleWhatsAppClick(
+                    "Hi! I need expert support for my shipping needs.",
+                  )
+                }
                 className="text-primary font-semibold hover:underline"
               >
                 Contact Support →
@@ -383,13 +399,24 @@ export default function Index() {
                 About AIANE WORLD IMPEX
               </h2>
               <p className="text-lg text-muted-foreground mb-4">
-                With over 15 years of experience in international logistics and shipping, AIANE WORLD IMPEX has established itself as a trusted partner for businesses worldwide. We specialize in providing comprehensive shipping solutions tailored to meet the unique needs of each client.
+                With over 15 years of experience in international logistics and
+                shipping, AIANE WORLD IMPEX has established itself as a trusted
+                partner for businesses worldwide. We specialize in providing
+                comprehensive shipping solutions tailored to meet the unique
+                needs of each client.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                Our commitment to excellence, innovation, and customer satisfaction has made us a leader in the logistics industry. We invest in cutting-edge technology and maintain a network of strategic partnerships across 150+ countries.
+                Our commitment to excellence, innovation, and customer
+                satisfaction has made us a leader in the logistics industry. We
+                invest in cutting-edge technology and maintain a network of
+                strategic partnerships across 150+ countries.
               </p>
               <button
-                onClick={() => handleWhatsAppClick("Hi! I'd like to know more about AIANE WORLD IMPEX.")}
+                onClick={() =>
+                  handleWhatsAppClick(
+                    "Hi! I'd like to know more about AIANE WORLD IMPEX.",
+                  )
+                }
                 className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors inline-flex items-center gap-2 group"
               >
                 Learn More
@@ -398,8 +425,12 @@ export default function Index() {
             </div>
             <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-8 h-96 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl font-heading font-bold text-primary mb-4">15+</div>
-                <p className="text-xl font-semibold text-foreground">Years of Excellence</p>
+                <div className="text-6xl font-heading font-bold text-primary mb-4">
+                  15+
+                </div>
+                <p className="text-xl font-semibold text-foreground">
+                  Years of Excellence
+                </p>
               </div>
             </div>
           </div>
@@ -414,7 +445,9 @@ export default function Index() {
               Track Your Shipment
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Monitor your cargo in real-time with our advanced tracking system. Get instant updates on location, status, and estimated delivery times.
+              Monitor your cargo in real-time with our advanced tracking system.
+              Get instant updates on location, status, and estimated delivery
+              times.
             </p>
           </div>
 
@@ -426,14 +459,17 @@ export default function Index() {
                 className="w-full px-4 py-3 border border-border rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-primary"
               />
               <button
-                onClick={() => handleWhatsAppClick("Hi! I need help tracking my shipment.")}
+                onClick={() =>
+                  handleWhatsAppClick("Hi! I need help tracking my shipment.")
+                }
                 className="w-full px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors"
               >
                 Track Now
               </button>
             </div>
             <p className="text-center text-muted-foreground mt-6">
-              Don't have a tracking number? Contact our support team for assistance.
+              Don't have a tracking number? Contact our support team for
+              assistance.
             </p>
           </div>
         </div>
@@ -447,7 +483,8 @@ export default function Index() {
               Get In Touch
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Have questions? We'd love to hear from you. Contact us today for any inquiries about our services.
+              Have questions? We'd love to hear from you. Contact us today for
+              any inquiries about our services.
             </p>
           </div>
 
@@ -484,7 +521,11 @@ export default function Index() {
                 WhatsApp
               </h3>
               <button
-                onClick={() => handleWhatsAppClick("Hi! I'd like to get in touch with AIANE WORLD IMPEX.")}
+                onClick={() =>
+                  handleWhatsAppClick(
+                    "Hi! I'd like to get in touch with AIANE WORLD IMPEX.",
+                  )
+                }
                 className="text-primary hover:underline font-semibold transition-colors"
               >
                 Chat with Us
