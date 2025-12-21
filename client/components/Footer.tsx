@@ -111,10 +111,10 @@ export default function Footer() {
                   className="text-secondary mt-0.5 flex-shrink-0"
                 />
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+917670959512"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  +1 (234) 567-890
+                  +91 7670959512
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -123,10 +123,10 @@ export default function Footer() {
                   className="text-secondary mt-0.5 flex-shrink-0"
                 />
                 <a
-                  href="mailto:info@wshipping.com"
+                  href="mailto:info@ariane-impex.com"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  info@wshipping.com
+                  info@ariane-impex.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -135,9 +135,9 @@ export default function Footer() {
                   className="text-secondary mt-0.5 flex-shrink-0"
                 />
                 <span className="text-gray-300">
-                  123 Shipping Way
+                  Global Logistics Network
                   <br />
-                  Port City, PC 12345
+                  International Operations
                 </span>
               </li>
             </ul>
