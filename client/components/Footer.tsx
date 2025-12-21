@@ -170,7 +170,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <div className="text-center text-gray-400 text-sm">
-            <p>&copy; {currentYear} WShipping. All rights reserved.</p>
+            <p>&copy; {currentYear} AIANE WORLD IMPEX. All rights reserved.</p>
           </div>
         </div>
       </div>
