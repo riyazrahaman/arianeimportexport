@@ -6,11 +6,25 @@ import { cn } from "@/lib/utils";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleScrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setIsOpen(false);
+    }
+  };
+
+  const handleWhatsAppClick = (message: string) => {
+    const phoneNumber = "917670959512";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
+
   const navLinks = [
-    { label: "Services", href: "/services" },
-    { label: "About", href: "/about" },
-    { label: "Tracking", href: "/tracking" },
-    { label: "Contact", href: "/contact" },
+    { label: "Services", id: "services" },
+    { label: "About", id: "about" },
+    { label: "Tracking", id: "tracking" },
+    { label: "Contact", id: "contact" },
   ];
 
   return (
