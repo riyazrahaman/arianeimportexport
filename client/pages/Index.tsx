@@ -131,11 +131,17 @@ export default function Index() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 group">
+                <button
+                  onClick={() => handleWhatsAppClick("Hi! I would like to get a quote for my shipping needs.")}
+                  className="px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 group"
+                >
                   Get a Free Quote
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
-                <button className="px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/5 transition-colors">
+                <button
+                  onClick={() => handleWhatsAppClick("Hi! I would like to watch a demo of your shipping platform.")}
+                  className="px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/5 transition-colors"
+                >
                   Watch Demo
                 </button>
               </div>
