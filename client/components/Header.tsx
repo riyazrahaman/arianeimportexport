@@ -56,7 +56,10 @@ export default function Header() {
 
           <div className="flex items-center gap-4">
             {/* CTA Button - Desktop */}
-            <button className="hidden sm:inline-flex px-6 py-2 bg-secondary text-secondary-foreground font-medium rounded-lg hover:bg-secondary/90 transition-colors">
+            <button
+              onClick={() => handleWhatsAppClick("Hi! I would like to get a quote for my shipping needs.")}
+              className="hidden sm:inline-flex px-6 py-2 bg-secondary text-secondary-foreground font-medium rounded-lg hover:bg-secondary/90 transition-colors"
+            >
               Get Quote
             </button>
 
