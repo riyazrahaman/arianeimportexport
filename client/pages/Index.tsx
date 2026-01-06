@@ -318,10 +318,10 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="flex justify-center gap-4 mb-12">
+          <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-12">
             <button
               onClick={() => setSelectedProductTab("featured")}
-              className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
+              className={`w-full sm:w-auto px-4 sm:px-6 py-2 rounded-lg font-semibold text-sm sm:text-base transition-colors ${
                 selectedProductTab === "featured"
                   ? "bg-primary text-white"
                   : "bg-white text-foreground border border-border hover:border-primary"
@@ -331,7 +331,7 @@ export default function Index() {
             </button>
             <button
               onClick={() => setSelectedProductTab("latest")}
-              className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
+              className={`w-full sm:w-auto px-4 sm:px-6 py-2 rounded-lg font-semibold text-sm sm:text-base transition-colors ${
                 selectedProductTab === "latest"
                   ? "bg-primary text-white"
                   : "bg-white text-foreground border border-border hover:border-primary"
