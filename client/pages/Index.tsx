@@ -20,7 +20,7 @@ export default function Index() {
   const [selectedProductTab, setSelectedProductTab] = useState<"featured" | "latest">("featured");
 
   const carouselImages = [
-    "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=500&h=500&fit=crop",
+    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&h=500&fit=crop",
     "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&h=500&fit=crop",
     "https://images.unsplash.com/photo-1464454709131-ffd692591ee5?w=500&h=500&fit=crop",
   ];
