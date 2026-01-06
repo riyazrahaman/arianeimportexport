@@ -295,15 +295,15 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Certificates Section */}
+      {/* Why Choose AIANE WORLD IMPEX Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
-              Certificates
+              Why Choose AIANE WORLD IMPEX
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Industry-leading certifications and quality standards that ensure your satisfaction
+              Advanced technology meets unmatched customer service
             </p>
           </div>
 
