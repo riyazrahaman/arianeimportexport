@@ -21,9 +21,7 @@ export default function Header() {
   };
 
   const navLinks = [
-    { label: "Services", id: "services" },
     { label: "About", id: "about" },
-    { label: "Tracking", id: "tracking" },
     { label: "Contact", id: "contact" },
   ];
 
