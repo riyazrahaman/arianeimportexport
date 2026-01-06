@@ -465,43 +465,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Tracking Section */}
-      <section id="tracking" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
-              Track Your Shipment
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Monitor your cargo in real-time with our advanced tracking system.
-              Get instant updates on location, status, and estimated delivery
-              times.
-            </p>
-          </div>
-
-          <div className="max-w-2xl mx-auto">
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-border">
-              <input
-                type="text"
-                placeholder="Enter your tracking number"
-                className="w-full px-4 py-3 border border-border rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <button
-                onClick={() =>
-                  handleWhatsAppClick("Hi! I need help tracking my shipment.")
-                }
-                className="w-full px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors"
-              >
-                Track Now
-              </button>
-            </div>
-            <p className="text-center text-muted-foreground mt-6">
-              Don't have a tracking number? Contact our support team for
-              assistance.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
