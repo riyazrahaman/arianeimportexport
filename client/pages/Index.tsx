@@ -570,9 +570,9 @@ export default function Index() {
               </a>
             </div>
 
-            <div className="bg-muted/30 rounded-2xl p-8 text-center">
-              <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-heading font-bold text-foreground mb-2">
+            <div className="bg-muted/30 rounded-2xl p-6 sm:p-8 text-center">
+              <Mail className="w-10 sm:w-12 h-10 sm:h-12 text-primary mx-auto mb-4" />
+              <h3 className="text-lg sm:text-xl font-heading font-bold text-foreground mb-2">
                 Email
               </h3>
               <a
