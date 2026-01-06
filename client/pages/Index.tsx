@@ -405,12 +405,12 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary to-primary/80">
-        <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-white">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary to-primary/80">
+        <div className="max-w-4xl mx-auto text-center space-y-6 sm:space-y-8">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white">
             Ready to Ship with Confidence?
           </h2>
-          <p className="text-lg text-white/90">
+          <p className="text-base sm:text-lg text-white/90">
             Get competitive rates and start your first shipment today. Join
             thousands of satisfied customers worldwide.
           </p>
