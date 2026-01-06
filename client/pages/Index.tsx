@@ -92,52 +92,52 @@ export default function Index() {
 
   const latestProducts = [
     {
-      image: "https://images.unsplash.com/photo-1599599810330-c5f6f11e8b42?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1539189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Organic Garlic",
       description: "Fresh, pungent garlic with natural flavor and aroma",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810200-d11c1b5b5b5b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1584868797797-dcc3dce74d18?w=400&h=400&fit=crop",
       title: "Sweet Onions",
       description: "Golden sweet onions perfect for cooking and salads",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810100-c5f5f5f5f5f5?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
       title: "Organic Radishes",
       description: "Crispy red radishes with peppery flavor",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599809900-d11c1b5b5b5b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Fresh Beets",
       description: "Rich, earthy beets packed with nutrients",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810800-d11c1b5b5b5b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1599599810964-d0f5b3d2d0b8?w=400&h=400&fit=crop",
       title: "Green Beans",
       description: "Tender, fresh green beans ideal for vegetables",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810700-d11c1b5b5b5b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1599599810491-94d8265c0f77?w=400&h=400&fit=crop",
       title: "Premium Asparagus",
       description: "Fresh asparagus spears with delicate flavor",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810600-d11c1b5b5b5b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1511689915661-a8d277cf8cb6?w=400&h=400&fit=crop",
       title: "Fresh Cauliflower",
       description: "White, fresh cauliflower for healthy cooking",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810500-d11c1b5b5b5b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Organic Kale",
       description: "Nutrient-dense kale for salads and smoothies",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810400-d11c1b5b5b5b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1553530666-ba2a8e36cd14?w=400&h=400&fit=crop",
       title: "Fresh Zucchini",
       description: "Tender zucchini perfect for grilling and cooking",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810300-d11c1b5b5b5b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1589985643556-649cdca3e9d3?w=400&h=400&fit=crop",
       title: "Organic Eggplant",
       description: "Purple eggplants with smooth skin and mild flavor",
     },
