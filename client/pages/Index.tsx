@@ -544,13 +544,13 @@ export default function Index() {
 
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="contact" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
+          <div className="text-center mb-12 sm:mb-16 space-y-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-foreground">
               Get In Touch
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
               Have questions? We'd love to hear from you. Contact us today for
               any inquiries about our services.
             </p>
