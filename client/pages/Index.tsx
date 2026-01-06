@@ -558,8 +558,8 @@ export default function Index() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto">
             <div className="bg-muted/30 rounded-2xl p-6 sm:p-8 text-center">
-              <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-heading font-bold text-foreground mb-2">
+              <Phone className="w-10 sm:w-12 h-10 sm:h-12 text-primary mx-auto mb-4" />
+              <h3 className="text-lg sm:text-xl font-heading font-bold text-foreground mb-2">
                 Phone
               </h3>
               <a
