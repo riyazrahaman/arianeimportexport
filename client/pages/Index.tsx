@@ -432,7 +432,7 @@ export default function Index() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 space-y-4">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-foreground">
               Certificates
             </h2>
           </div>
