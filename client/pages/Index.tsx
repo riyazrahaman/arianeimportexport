@@ -17,6 +17,7 @@ import { useState, useEffect } from "react";
 
 export default function Index() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [selectedProductTab, setSelectedProductTab] = useState<"featured" | "latest">("featured");
 
   const carouselImages = [
     "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=500&h=500&fit=crop",
