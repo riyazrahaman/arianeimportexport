@@ -22,6 +22,7 @@ export default function Header() {
 
   const navLinks = [
     { label: "About", id: "about" },
+    { label: "Our products", id: "trending-products" },
     { label: "Contact", id: "contact" },
   ];
 
