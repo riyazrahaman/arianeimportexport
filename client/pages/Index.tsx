@@ -351,9 +351,14 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Support Section */}
+      {/* Certificates Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12 space-y-4">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
+              Certificates
+            </h2>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 text-center border border-border">
               <Users className="w-12 h-12 text-primary mx-auto mb-4" />
