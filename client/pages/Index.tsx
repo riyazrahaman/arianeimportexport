@@ -39,7 +39,7 @@ export default function Index() {
   };
   const featuredProducts = [
     {
-      image: "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1553530666-ba2a8e36cd14?w=400&h=400&fit=crop",
       title: "Fresh Mangoes",
       description: "Juicy, sweet mangoes sourced directly from premium farms",
     },
@@ -49,32 +49,32 @@ export default function Index() {
       description: "Crisp, fresh organic lettuce perfect for salads and cuisine",
     },
     {
-      image: "https://images.unsplash.com/photo-1464454709131-ffd692591ee5?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1511689915661-a8d277cf8cb6?w=400&h=400&fit=crop",
       title: "Green Spinach",
       description: "Nutrient-rich spinach with superior quality and freshness",
     },
     {
-      image: "https://images.unsplash.com/photo-1568695041778-d38fb908f45b?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Fresh Tomatoes",
       description: "Ripe, flavorful tomatoes hand-selected for quality assurance",
     },
     {
-      image: "https://images.unsplash.com/photo-1622690691207-81342ee5ff30?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1589985643556-649cdca3e9d3?w=400&h=400&fit=crop",
       title: "Crispy Cucumbers",
       description: "Cool, refreshing cucumbers ideal for fresh produce markets",
     },
     {
-      image: "https://images.unsplash.com/photo-1577661016563-430f63602d4a?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
       title: "Premium Broccoli",
       description: "Vibrant green broccoli with optimal nutritional value",
     },
     {
-      image: "https://images.unsplash.com/photo-1600854687349-6e1f9fd60c77?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Fresh Carrots",
       description: "Sweet, crunchy carrots packed with natural vitamins",
     },
     {
-      image: "https://images.unsplash.com/photo-1588187062226-0e2a85e74181?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1599599810964-d0f5b3d2d0b8?w=400&h=400&fit=crop",
       title: "Organic Cabbage",
       description: "Dense, healthy cabbage varieties for culinary excellence",
     },
@@ -84,7 +84,7 @@ export default function Index() {
       description: "Colorful bell peppers bursting with flavor and quality",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810964-d0f5b3d2d0b8?w=400&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1551135049-8a33cad8a5e8?w=400&h=400&fit=crop",
       title: "Premium Potatoes",
       description: "High-quality potatoes suitable for diverse culinary needs",
     },
