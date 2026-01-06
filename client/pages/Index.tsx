@@ -318,8 +318,31 @@ export default function Index() {
             </p>
           </div>
 
+          <div className="flex justify-center gap-4 mb-12">
+            <button
+              onClick={() => setSelectedProductTab("featured")}
+              className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
+                selectedProductTab === "featured"
+                  ? "bg-primary text-white"
+                  : "bg-white text-foreground border border-border hover:border-primary"
+              }`}
+            >
+              Featured
+            </button>
+            <button
+              onClick={() => setSelectedProductTab("latest")}
+              className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
+                selectedProductTab === "latest"
+                  ? "bg-primary text-white"
+                  : "bg-white text-foreground border border-border hover:border-primary"
+              }`}
+            >
+              Latest
+            </button>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-            {trendingProducts.map((product, i) => (
+            {(selectedProductTab === "featured" ? featuredProducts : latestProducts).map((product, i) => (
               <div
                 key={i}
                 className="bg-white rounded-2xl overflow-hidden border border-border hover:border-primary hover:shadow-lg transition-all duration-300 group cursor-pointer"
