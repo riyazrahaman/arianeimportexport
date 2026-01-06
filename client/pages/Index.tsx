@@ -496,14 +496,14 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="about" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
                 About AIANE WORLD IMPEX
               </h2>
-              <p className="text-lg text-muted-foreground mb-4">
+              <p className="text-base sm:text-lg text-muted-foreground mb-4">
                 With over 15 years of experience in international logistics and
                 shipping, AIANE WORLD IMPEX has established itself as a trusted
                 partner for businesses worldwide. We specialize in providing
