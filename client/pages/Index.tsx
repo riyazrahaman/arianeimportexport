@@ -17,7 +17,9 @@ import { useState, useEffect } from "react";
 
 export default function Index() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [selectedProductTab, setSelectedProductTab] = useState<"featured" | "latest">("featured");
+  const [selectedProductTab, setSelectedProductTab] = useState<
+    "featured" | "latest"
+  >("featured");
 
   const carouselImages = [
     "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&h=500&fit=crop",
@@ -39,52 +41,64 @@ export default function Index() {
   };
   const featuredProducts = [
     {
-      image: "https://images.unsplash.com/photo-1553530666-ba2a8e36cd14?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1553530666-ba2a8e36cd14?w=400&h=400&fit=crop",
       title: "Fresh Mangoes",
       description: "Juicy, sweet mangoes sourced directly from premium farms",
     },
     {
-      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Organic Lettuce",
-      description: "Crisp, fresh organic lettuce perfect for salads and cuisine",
+      description:
+        "Crisp, fresh organic lettuce perfect for salads and cuisine",
     },
     {
-      image: "https://images.unsplash.com/photo-1511689915661-a8d277cf8cb6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1511689915661-a8d277cf8cb6?w=400&h=400&fit=crop",
       title: "Green Spinach",
       description: "Nutrient-rich spinach with superior quality and freshness",
     },
     {
-      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Fresh Tomatoes",
-      description: "Ripe, flavorful tomatoes hand-selected for quality assurance",
+      description:
+        "Ripe, flavorful tomatoes hand-selected for quality assurance",
     },
     {
-      image: "https://images.unsplash.com/photo-1589985643556-649cdca3e9d3?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1589985643556-649cdca3e9d3?w=400&h=400&fit=crop",
       title: "Crispy Cucumbers",
       description: "Cool, refreshing cucumbers ideal for fresh produce markets",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
       title: "Premium Broccoli",
       description: "Vibrant green broccoli with optimal nutritional value",
     },
     {
-      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Fresh Carrots",
       description: "Sweet, crunchy carrots packed with natural vitamins",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810964-d0f5b3d2d0b8?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1599599810964-d0f5b3d2d0b8?w=400&h=400&fit=crop",
       title: "Organic Cabbage",
       description: "Dense, healthy cabbage varieties for culinary excellence",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810491-94d8265c0f77?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1599599810491-94d8265c0f77?w=400&h=400&fit=crop",
       title: "Fresh Peppers",
       description: "Colorful bell peppers bursting with flavor and quality",
     },
     {
-      image: "https://images.unsplash.com/photo-1551135049-8a33cad8a5e8?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1551135049-8a33cad8a5e8?w=400&h=400&fit=crop",
       title: "Premium Potatoes",
       description: "High-quality potatoes suitable for diverse culinary needs",
     },
@@ -92,52 +106,62 @@ export default function Index() {
 
   const latestProducts = [
     {
-      image: "https://images.unsplash.com/photo-1539189549336-e6e99c3679fe?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1539189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Organic Garlic",
       description: "Fresh, pungent garlic with natural flavor and aroma",
     },
     {
-      image: "https://images.unsplash.com/photo-1584868797797-dcc3dce74d18?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1584868797797-dcc3dce74d18?w=400&h=400&fit=crop",
       title: "Sweet Onions",
       description: "Golden sweet onions perfect for cooking and salads",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
       title: "Organic Radishes",
       description: "Crispy red radishes with peppery flavor",
     },
     {
-      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Fresh Beets",
       description: "Rich, earthy beets packed with nutrients",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810964-d0f5b3d2d0b8?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1599599810964-d0f5b3d2d0b8?w=400&h=400&fit=crop",
       title: "Green Beans",
       description: "Tender, fresh green beans ideal for vegetables",
     },
     {
-      image: "https://images.unsplash.com/photo-1599599810491-94d8265c0f77?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1599599810491-94d8265c0f77?w=400&h=400&fit=crop",
       title: "Premium Asparagus",
       description: "Fresh asparagus spears with delicate flavor",
     },
     {
-      image: "https://images.unsplash.com/photo-1511689915661-a8d277cf8cb6?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1511689915661-a8d277cf8cb6?w=400&h=400&fit=crop",
       title: "Fresh Cauliflower",
       description: "White, fresh cauliflower for healthy cooking",
     },
     {
-      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
       title: "Organic Kale",
       description: "Nutrient-dense kale for salads and smoothies",
     },
     {
-      image: "https://images.unsplash.com/photo-1553530666-ba2a8e36cd14?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1553530666-ba2a8e36cd14?w=400&h=400&fit=crop",
       title: "Fresh Zucchini",
       description: "Tender zucchini perfect for grilling and cooking",
     },
     {
-      image: "https://images.unsplash.com/photo-1589985643556-649cdca3e9d3?w=400&h=400&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1589985643556-649cdca3e9d3?w=400&h=400&fit=crop",
       title: "Organic Eggplant",
       description: "Purple eggplants with smooth skin and mild flavor",
     },
@@ -298,7 +322,9 @@ export default function Index() {
                 <div className="text-3xl sm:text-4xl font-heading font-bold text-primary mb-2">
                   {stat.number}
                 </div>
-                <div className="text-xs sm:text-sm text-muted-foreground">{stat.label}</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">
+                  {stat.label}
+                </div>
               </div>
             ))}
           </div>
@@ -306,7 +332,10 @@ export default function Index() {
       </section>
 
       {/* Trending Products Section */}
-      <section id="trending-products" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+      <section
+        id="trending-products"
+        className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
@@ -342,7 +371,10 @@ export default function Index() {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-6">
-            {(selectedProductTab === "featured" ? featuredProducts : latestProducts).map((product, i) => (
+            {(selectedProductTab === "featured"
+              ? featuredProducts
+              : latestProducts
+            ).map((product, i) => (
               <div
                 key={i}
                 className="bg-white rounded-2xl overflow-hidden border border-border hover:border-primary hover:shadow-lg transition-all duration-300 group cursor-pointer"
@@ -496,7 +528,10 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section
+        id="about"
+        className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
@@ -542,9 +577,11 @@ export default function Index() {
         </div>
       </section>
 
-
       {/* Contact Section */}
-      <section id="contact" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section
+        id="contact"
+        className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 sm:mb-16 space-y-4">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-foreground">
