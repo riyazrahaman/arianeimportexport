@@ -180,9 +180,9 @@ export default function Index() {
   return (
     <>
       {/* Hero Section */}
-      <section className="pt-20 pb-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary/5 via-white to-secondary/5">
+      <section className="pt-16 pb-24 sm:pt-20 sm:pb-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary/5 via-white to-secondary/5">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-8">
               <div className="space-y-4">
@@ -191,11 +191,11 @@ export default function Index() {
                     Trusted by Global Brands
                   </span>
                 </div>
-                <h1 className="text-5xl md:text-6xl font-heading font-bold text-foreground leading-tight">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold text-foreground leading-tight">
                   Ship Your World with{" "}
                   <span className="text-primary">Confidence</span>
                 </h1>
-                <p className="text-lg text-muted-foreground max-w-lg">
+                <p className="text-base sm:text-lg text-muted-foreground max-w-lg">
                   Industry-leading shipping and logistics solutions with
                   real-time tracking, competitive pricing, and 24/7 support.
                 </p>
@@ -226,7 +226,7 @@ export default function Index() {
               </div>
 
               {/* Trust Indicators */}
-              <div className="flex items-center gap-6 pt-4">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 pt-4">
                 <div className="flex -space-x-2">
                   {[1, 2, 3].map((i) => (
                     <div
@@ -249,7 +249,7 @@ export default function Index() {
             </div>
 
             {/* Right Visual - Rotating Carousel */}
-            <div className="relative h-96 md:h-96">
+            <div className="relative h-64 sm:h-80 md:h-96">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary opacity-10 rounded-3xl blur-3xl"></div>
               <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-border h-full">
                 <div className="relative w-full h-full">
@@ -292,13 +292,13 @@ export default function Index() {
       {/* Stats Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
             {stats.map((stat, i) => (
               <div key={i} className="text-center">
-                <div className="text-4xl font-heading font-bold text-primary mb-2">
+                <div className="text-3xl sm:text-4xl font-heading font-bold text-primary mb-2">
                   {stat.number}
                 </div>
-                <div className="text-muted-foreground">{stat.label}</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -341,24 +341,24 @@ export default function Index() {
             </button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-6">
             {(selectedProductTab === "featured" ? featuredProducts : latestProducts).map((product, i) => (
               <div
                 key={i}
                 className="bg-white rounded-2xl overflow-hidden border border-border hover:border-primary hover:shadow-lg transition-all duration-300 group cursor-pointer"
               >
-                <div className="relative w-full h-48 overflow-hidden">
+                <div className="relative w-full h-32 sm:h-40 md:h-48 overflow-hidden">
                   <img
                     src={product.image}
                     alt={product.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-heading font-bold text-foreground mb-2">
+                <div className="p-3 sm:p-6">
+                  <h3 className="text-sm sm:text-lg font-heading font-bold text-foreground mb-2">
                     {product.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-xs sm:text-sm text-muted-foreground">
                     {product.description}
                   </p>
                   <div className="mt-4 flex items-center text-primary opacity-0 group-hover:opacity-100 transition-opacity">
@@ -384,7 +384,7 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
             {features.map((feature, i) => (
               <div key={i} className="flex gap-6">
                 <div className="flex-shrink-0">
@@ -436,9 +436,9 @@ export default function Index() {
               Certificates
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 text-center border border-border">
-              <Users className="w-12 h-12 text-primary mx-auto mb-4" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
+            <div className="bg-white rounded-2xl p-6 sm:p-8 text-center border border-border">
+              <Users className="w-10 sm:w-12 h-10 sm:h-12 text-primary mx-auto mb-4" />
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
                 Expert Support
               </h3>
@@ -458,8 +458,8 @@ export default function Index() {
               </button>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 text-center border border-border">
-              <Award className="w-12 h-12 text-primary mx-auto mb-4" />
+            <div className="bg-white rounded-2xl p-6 sm:p-8 text-center border border-border">
+              <Award className="w-10 sm:w-12 h-10 sm:h-12 text-primary mx-auto mb-4" />
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
                 Industry Leading
               </h3>
@@ -475,8 +475,8 @@ export default function Index() {
               </a>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 text-center border border-border">
-              <CheckCircle className="w-12 h-12 text-primary mx-auto mb-4" />
+            <div className="bg-white rounded-2xl p-6 sm:p-8 text-center border border-border">
+              <CheckCircle className="w-10 sm:w-12 h-10 sm:h-12 text-primary mx-auto mb-4" />
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
                 Secure & Insured
               </h3>
@@ -498,7 +498,7 @@ export default function Index() {
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
                 About AIANE WORLD IMPEX
@@ -528,9 +528,9 @@ export default function Index() {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
-            <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-8 h-96 flex items-center justify-center">
+            <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-6 sm:p-8 h-64 sm:h-96 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl font-heading font-bold text-primary mb-4">
+                <div className="text-5xl sm:text-6xl font-heading font-bold text-primary mb-4">
                   15+
                 </div>
                 <p className="text-xl font-semibold text-foreground">
@@ -556,8 +556,8 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="bg-muted/30 rounded-2xl p-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto">
+            <div className="bg-muted/30 rounded-2xl p-6 sm:p-8 text-center">
               <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="text-xl font-heading font-bold text-foreground mb-2">
                 Phone
