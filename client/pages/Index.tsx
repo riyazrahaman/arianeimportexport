@@ -510,7 +510,7 @@ export default function Index() {
                 comprehensive shipping solutions tailored to meet the unique
                 needs of each client.
               </p>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-base sm:text-lg text-muted-foreground mb-6">
                 Our commitment to excellence, innovation, and customer
                 satisfaction has made us a leader in the logistics industry. We
                 invest in cutting-edge technology and maintain a network of
