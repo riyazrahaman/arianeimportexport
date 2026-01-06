@@ -251,35 +251,43 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Trending Products Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
-              Our Services
+              Trending Products
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive logistics solutions designed to meet your shipping
-              needs with efficiency and reliability
+              Premium fresh fruits and vegetables sourced from the finest farms
+              worldwide. Experience quality you can trust
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, i) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            {trendingProducts.map((product, i) => (
               <div
                 key={i}
-                className="bg-white rounded-2xl p-8 border border-border hover:border-primary hover:shadow-lg transition-all duration-300 group cursor-pointer"
+                className="bg-white rounded-2xl overflow-hidden border border-border hover:border-primary hover:shadow-lg transition-all duration-300 group cursor-pointer"
               >
-                <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
-                  {service.icon}
+                <div className="relative w-full h-48 overflow-hidden">
+                  <img
+                    src={product.image}
+                    alt={product.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-muted-foreground">{service.description}</p>
-                <div className="mt-4 flex items-center text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                  <span className="text-sm font-semibold">Learn more</span>
-                  <ArrowRight className="w-4 h-4 ml-2" />
+                <div className="p-6">
+                  <h3 className="text-lg font-heading font-bold text-foreground mb-2">
+                    {product.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    {product.description}
+                  </p>
+                  <div className="mt-4 flex items-center text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-sm font-semibold">Order now</span>
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </div>
                 </div>
               </div>
             ))}
