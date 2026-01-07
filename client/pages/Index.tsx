@@ -22,9 +22,9 @@ export default function Index() {
   >("featured");
 
   const carouselImages = [
-    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&h=500&fit=crop",
-    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&h=500&fit=crop",
-    "https://images.unsplash.com/photo-1464454709131-ffd692591ee5?w=500&h=500&fit=crop",
+    "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2Fa185ce30887c40e8a1f916195a3e375c?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2Fb62ad88e779446729fedaf335494f215?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2Fc1c3bdb93d91498ca8a1040509a23102?format=webp&width=800",
   ];
 
   useEffect(() => {
