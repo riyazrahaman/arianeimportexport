@@ -43,64 +43,71 @@ export default function Index() {
     {
       image:
         "https://images.unsplash.com/photo-1553530666-ba2a8e36cd14?w=400&h=400&fit=crop",
-      title: "Fresh Mangoes",
-      description: "Juicy, sweet mangoes sourced directly from premium farms",
+      title: "Mangoes",
+      description:
+        "Super Farm Fresh Chapai / Banganapalli Mango from India to Kuwait / Malaysia / Iraq\nMin.Order: 1000 kgs",
     },
     {
       image:
         "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
-      title: "Organic Lettuce",
+      title: "Basmati Rice",
       description:
-        "Crisp, fresh organic lettuce perfect for salads and cuisine",
+        "Natural Purity Long Grain Indian 1121 White Sella Basmati Rice Distributors in India to Mamutik Penang\nMin.Order: 1x20ft Container (22 to 26 MTS)",
     },
     {
       image:
         "https://images.unsplash.com/photo-1511689915661-a8d277cf8cb6?w=400&h=400&fit=crop",
-      title: "Green Spinach",
-      description: "Nutrient-rich spinach with superior quality and freshness",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
-      title: "Fresh Tomatoes",
+      title: "Sona Masoori Rice",
       description:
-        "Ripe, flavorful tomatoes hand-selected for quality assurance",
+        "Sona Masoori Rice Suppliers / Exporters / Manufactures / Dealers In India/Tamilnadu / USFDA Approved – A Seal of Trust\nMin.Order: 1x20ft Container (22 to 26 MTS)",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1589985643556-649cdca3e9d3?w=400&h=400&fit=crop",
-      title: "Crispy Cucumbers",
-      description: "Cool, refreshing cucumbers ideal for fresh produce markets",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
-      title: "Premium Broccoli",
-      description: "Vibrant green broccoli with optimal nutritional value",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
-      title: "Fresh Carrots",
-      description: "Sweet, crunchy carrots packed with natural vitamins",
+        "https://images.unsplash.com/photo-1599599810494-46aa46d73bab?w=400&h=400&fit=crop",
+      title: "Idly Rice",
+      description:
+        "Idli Rice Exporter in India To Unites States/ United Kingdom/ Singapore / Safe and USFDA Certified\nMin.Order: 1x20ft Container (22 to 26 MTS)",
     },
     {
       image:
         "https://images.unsplash.com/photo-1599599810964-d0f5b3d2d0b8?w=400&h=400&fit=crop",
-      title: "Organic Cabbage",
-      description: "Dense, healthy cabbage varieties for culinary excellence",
+      title: "Onions",
+      description:
+        "Stylish Baby onion /Tasty Rose small onion Exporters / Suppliers to Maldives / Norway / Palau from India\nMin.Order: 1000 Kg",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
+      title: "Grain Rice",
+      description:
+        "Round Grain Rice Supplier In India / USFDA-Approved Excellence\nMin.Order: 23 Metric Ton",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop",
+      title: "Short Grain Rice",
+      description: "Short grain rice\nMin.Order: 26 MT",
     },
     {
       image:
         "https://images.unsplash.com/photo-1599599810491-94d8265c0f77?w=400&h=400&fit=crop",
-      title: "Fresh Peppers",
-      description: "Colorful bell peppers bursting with flavor and quality",
+      title: "White Sella Rice",
+      description:
+        "One of the best hallmarks of high-quality1121 White Sella Rice Exports from India To Oman/ Kuwait/ Ireland/ New Zealand/ Ghana/ Bahrain/ Saudi Arabia\nMin.Order: 1x20ft Container (22 to 26 MTS)",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1551135049-8a33cad8a5e8?w=400&h=400&fit=crop",
-      title: "Premium Potatoes",
-      description: "High-quality potatoes suitable for diverse culinary needs",
+        "https://images.unsplash.com/photo-1596040388316-a27b6a72e25d?w=400&h=400&fit=crop",
+      title: "Turmeric Powder",
+      description:
+        "Turmeric Powder Suppliers/Exporters In India / USFDA International Certification\nMin.Order: 500kgs",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1599599810778-1c089c8b8b0f?w=400&h=400&fit=crop",
+      title: "Jaggery Cubes",
+      description:
+        "Best Long Lasting Sweetness of Gur / Jaggery Cubes Exporters / Manufactures / Traders in India\nMin.Order: 500kgs",
     },
   ];
 
