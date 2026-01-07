@@ -384,6 +384,11 @@ export default function Index() {
             ).map((product, i) => (
               <div
                 key={i}
+                onClick={() =>
+                  handleWhatsAppClick(
+                    `Hi! I'm interested in ordering ${product.title}.\n\nDetails:\n${product.description}`,
+                  )
+                }
                 className="bg-white rounded-2xl overflow-hidden border border-border hover:border-primary hover:shadow-lg transition-all duration-300 group cursor-pointer"
               >
                 <div className="relative w-full h-32 sm:h-40 md:h-48 overflow-hidden">
@@ -610,7 +615,7 @@ export default function Index() {
                 href="tel:+917075047050"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                +91 7670959512
+                +91 7075047050
               </a>
             </div>
 
