@@ -15,7 +15,7 @@ export default function Header() {
   };
 
   const handleWhatsAppClick = (message: string) => {
-    const phoneNumber = "917670959512";
+    const phoneNumber = "917075047050";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
