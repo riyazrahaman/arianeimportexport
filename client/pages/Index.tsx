@@ -35,7 +35,7 @@ export default function Index() {
   }, []);
 
   const handleWhatsAppClick = (message: string) => {
-    const phoneNumber = "917670959512";
+    const phoneNumber = "917075047050";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
@@ -607,7 +607,7 @@ export default function Index() {
                 Phone
               </h3>
               <a
-                href="tel:+917670959512"
+                href="tel:+917075047050"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 +91 7670959512
