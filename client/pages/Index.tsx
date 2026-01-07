@@ -42,69 +42,69 @@ export default function Index() {
   const featuredProducts = [
     {
       image:
-        "https://images.unsplash.com/photo-1547547867-98b1d5dbk1d9?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2F6b55abed6f6a481d950cd2172e91b318?format=webp&width=800",
       title: "Mangoes",
       description:
         "Super Farm Fresh Chapai / Banganapalli Mango from India to Kuwait / Malaysia / Iraq\nMin.Order: 1000 kgs",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810694-f3361d0a2a05?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2Fc1c3bdb93d91498ca8a1040509a23102?format=webp&width=800",
       title: "Basmati Rice",
       description:
         "Natural Purity Long Grain Indian 1121 White Sella Basmati Rice Distributors in India to Mamutik Penang\nMin.Order: 1x20ft Container (22 to 26 MTS)",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810331-f68e08d0d1f1?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2F7ed63a5689f24a8b8805ec538d9a80a0?format=webp&width=800",
       title: "Sona Masoori Rice",
       description:
         "Sona Masoori Rice Suppliers / Exporters / Manufactures / Dealers In India/Tamilnadu / USFDA Approved – A Seal of Trust\nMin.Order: 1x20ft Container (22 to 26 MTS)",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810331-f68e08d0d1f2?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2F997c47ba26094b0bad075c53809d9191?format=webp&width=800",
       title: "Idly Rice",
       description:
         "Idli Rice Exporter in India To Unites States/ United Kingdom/ Singapore / Safe and USFDA Certified\nMin.Order: 1x20ft Container (22 to 26 MTS)",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2Fa185ce30887c40e8a1f916195a3e375c?format=webp&width=800",
       title: "Onions",
       description:
         "Stylish Baby onion /Tasty Rose small onion Exporters / Suppliers to Maldives / Norway / Palau from India\nMin.Order: 1000 Kg",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810331-a2c8f5a9a6a8?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2F775556066a6e455182e0d3321870216c?format=webp&width=800",
       title: "Grain Rice",
       description:
         "Round Grain Rice Supplier In India / USFDA-Approved Excellence\nMin.Order: 23 Metric Ton",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810331-a2c8f5a9a6a9?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2Fc9c82924c19443a59b5f6e65a345a29e?format=webp&width=800",
       title: "Short Grain Rice",
       description: "Short grain rice\nMin.Order: 26 MT",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810331-a2c8f5a9a6a5?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2F09d4166b824c471d8ee17765acccd997?format=webp&width=800",
       title: "White Sella Rice",
       description:
         "One of the best hallmarks of high-quality1121 White Sella Rice Exports from India To Oman/ Kuwait/ Ireland/ New Zealand/ Ghana/ Bahrain/ Saudi Arabia\nMin.Order: 1x20ft Container (22 to 26 MTS)",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810331-b56e1e0d8eef?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2Fb62ad88e779446729fedaf335494f215?format=webp&width=800",
       title: "Turmeric Powder",
       description:
         "Turmeric Powder Suppliers/Exporters In India / USFDA International Certification\nMin.Order: 500kgs",
     },
     {
       image:
-        "https://images.unsplash.com/photo-1599599810331-c2d7f65a3b9a?w=400&h=400&fit=crop",
+        "https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2Fb9d6833fbe014bc9b3f72c749266a0ec?format=webp&width=800",
       title: "Jaggery Cubes",
       description:
         "Best Long Lasting Sweetness of Gur / Jaggery Cubes Exporters / Manufactures / Traders in India\nMin.Order: 500kgs",
