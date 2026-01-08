@@ -31,7 +31,7 @@ export default function Index() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prev) => (prev + 1) % carouselImages.length);
-    }, 4000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
