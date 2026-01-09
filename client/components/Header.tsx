@@ -32,11 +32,13 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A</span>
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F54f242bb59d34d2ab4de178a06ec368d%2F0efee66edcff438ea9ae4cd8db9b680f?format=webp&width=800"
+              alt="ARIANE WORLD IMPEX"
+              className="h-10 w-auto"
+            />
             <span className="font-heading text-lg font-bold text-foreground hidden sm:block">
-              AIANE
+              ARIANE WORLD IMPEX
             </span>
           </Link>
 
